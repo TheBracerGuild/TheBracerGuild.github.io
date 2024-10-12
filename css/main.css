@@ -1,0 +1,214 @@
+.headbanner {
+    background-image: url("/images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 460px;
+    width: 100%;
+}
+html, body {
+	background-image: url("/images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    font: 16px arial, sans-serif;
+	color: #454545;
+    margin: 0;
+}
+.blurbbox {
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    border: #454545;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    width: 980px;
+    background: #adceff;
+}
+.blurbbox > .blurb {
+    font: 14px arial, sans-serif;
+    color: #000000;
+    margin: 20px;
+    flex: 3 1 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.blurbbox > .headshot {
+    background-image: url("/images/portrait.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-width: 400px;
+    min-height: 524px;
+    flex: 1 1 20%;
+}
+.socials {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    position: center;
+    color: #000000;
+    border: 1px;
+    border-color: white;
+    text-align: center;
+}
+.twitch{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(210, 117, 247, 0.863);
+}
+.twitch > .twitchicon {
+    flex: 1 1 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.twitch > .twitchdesc {
+    font-size: 12px arial, sans-serif;
+    flex: 3 1 60%;
+    margin: auto;
+}
+.youtube{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(255, 144, 187, 0.863);
+}
+.youtube > .youtubeicon {
+    margin-right: 20px;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.youtube > .youtubedesc {
+    flex: 3 1 60%;
+    margin-left: 10px;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+.discord{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(165, 255, 162, 0.863);
+}
+.discord > .discordicon {
+    flex: 1 1 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.discord > .discorddesc {
+    flex: 3 1 60%;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+.twitter{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(146, 230, 255, 0.863);
+}
+.twitter > .twittericon {
+    margin-right: 20px;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.twitter > .twitterdesc {
+    flex: 3 1 60%;
+    margin-left: 10px;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+.tiktok{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(175, 175, 175, 0.863);
+}
+.tiktok > .tiktokicon {
+    flex: 1 1 20%;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.tiktok > .tiktokdesc {
+    flex: 3 1 60%;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+.teespring{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: #000000;
+    border-width: 2px;
+    display: flex;
+    flex-flow: row;
+    background: rgba(255, 235, 124, 0.863);
+}
+.teespring > .teespringicon {
+    margin-right: 20px;
+    min-width: 128px;
+    min-height: 128px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.teespring > .teespringdesc {
+    margin-left: 10px;
+    flex: 3 1 60%;
+    margin: auto;
+    font-size: 12px arial, sans-serif;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    color: black;
+}
